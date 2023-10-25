@@ -1,0 +1,140 @@
+.first-class {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: smaller;
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(8, 8, 8); /* Set the font color to white */
+  }
+  .navbar-logo {
+    margin-right: auto;
+  }
+  .first-class .fa {
+    color: rgb(136, 13, 13);
+  }
+  
+  .first-class {
+    
+    height: 40px;
+    width: auto;
+  }
+  
+  .first-class .navbar-cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .first-class .navbar-cart i {
+    margin-right: 5px;
+  }
+  
+  .first-class .navbar-cart span {
+    margin-right: 5px;
+    color: rgb(7, 7, 7); 
+    }
+
+    .navbar-cart a{
+      color: white;
+    }
+    .navbar-cart a:hover{
+      color: blue;
+    }
+
+
+  .second-class {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #921c1c;
+    color: white; 
+  }
+  .first-class .fa{
+    color: #921c1c;
+  }
+  
+  .second-class .navbar-logo img {
+    height: 40px;
+    width: auto;
+  }
+  
+  .second-class .navbar-cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .second-class .navbar-cart i {
+    margin-right: 5px;
+  }
+  
+  .second-class .navbar-cart span {
+    padding: 5px;
+    color: white; 
+  }
+
+
+
+  .second-class .navbar-cart .search input[type=text]{
+    width:300px;
+    height:30px;
+    border-radius:25px;
+    border: none;
+       flex: 1;	
+	font-size: 18px;
+	padding-left: 10px;
+}
+     
+.second-class .navbar-cart .search{
+    float:right;
+    margin:7px;
+    width: 500px;
+
+	border-radius: 30px;
+
+	display: flex;
+
+	align-items: center;
+
+}
+
+ .second-class .navbar-cart .search .i{
+      
+
+        font-size: 20px;
+      
+        color: #777;
+      
+      
+     }
+
+.third-class{
+  display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: smaller;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.third-class .navbar-logo ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+  
+}
+
+.third-class .navbar-logo ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #921c1c;
+  content: ">\00a0";
+}
+
+.third-class .navbar-logo ul.breadcrumb li a {
+  color:  #921c1c;
+  text-decoration: none;
+}
+
+.third-class .navbar-logo .breadcrumb li a:hover {
+  color: black;
+  
+}

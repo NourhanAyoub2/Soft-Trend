@@ -1,0 +1,63 @@
+
+.button {
+    border: none;
+    color: rgb(36, 36, 36);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+
+  }
+  
+  .link{
+    color: black;
+  }
+  .link:hover{
+      color: rgb(172, 43, 43);
+  }
+  
+  .button1 {background-color: #ffffff;
+    text-decoration-color: black;
+    color: black;
+} 
+.dropdown{
+  color: red;
+  font-size: 30px;
+}
+.form-check-input{
+  width: 20px;
+  height: 20px;
+  border-radius:25%;
+}
+.form-check-label{
+  font-size: 17px;
+}
+.card-text{
+  font-size: 17px;
+}
+.col.card-body{
+  margin: 5px; padding: 5px;
+}
+.card-title{
+  font-size: 25px;
+}
+.card{
+  width: 400px;
+  height: 100%;
+ 
+margin-left: 15px;
+
+  
+}.row{
+  --mdb-gutter-x: ;
+}
+
+
+.card-btn{
+  margin-right: 30px; 
+  margin-bottom: 20px;
+}

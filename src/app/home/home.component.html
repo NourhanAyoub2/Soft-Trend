@@ -1,0 +1,31 @@
+<div class="card-container">
+    <div class="card" style="width: 22rem;" *ngFor="let card of cards">
+      <div class="card-body">
+        <!-- Default checkbox -->
+        <div class="form-check p-4 mb-3">
+          <input mdbCheckbox class="form-check-input shadow-4" type="checkbox" value="" id="flexCheckDefault" />
+          <label class="form-check-label" for="flexCheckDefault">Add to compare list</label>
+        </div>
+        <!-- Default checkbox -->
+        <h5 class="card-title mb-3">{{ card.title }}</h5>
+        <!-- Dropdown -->
+        <div mdbDropdown class="dropdown mb-4">
+          <a class="dropdown-toggle" style="color: red;" id="DropdownMenuLink" role="button" mdbDropdownToggle
+            aria-expanded="false">
+            {{ card.price }}</a>
+          <ul mdbDropdownMenu class="dropdown-menu">
+            <li *ngFor="let item of card.prices">
+              <a class="dropdown-item" href="">{{ item }}</a>
+            </li>
+          </ul>
+        </div>
+        <p class="card-text mb-md-3 justify-content-right">
+          {{ card.description }}
+        </p>
+      </div>
+      <div class="card-btn row-justify-content-center">
+        <a class="link p-5">+ Add-ons</a>
+        <button mat-button style="color: white; background-color: rgb(192, 46, 46);">Add To Card</button>
+      </div>
+    </div>
+  </div>

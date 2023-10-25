@@ -1,0 +1,29 @@
+form.searchbar input[type=text] {
+   
+    border: 1px solid rgb(214, 214, 214);
+    float: left;
+    
+    background: white;
+  }
+  
+  form.searchbar button {
+    float: left;
+ 
+    background: white;
+    color: red;
+    font-size: 17px;
+ 
+   
+    border-radius: 3px;
+  }
+  
+  form.searchbar button:hover {
+    background: red;
+    color: white;
+  }
+  
+  form.searchbar::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

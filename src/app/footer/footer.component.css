@@ -1,0 +1,19 @@
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+  .footer{
+   
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+  }
+
+ .copyrght{
+
+    align-items: center !important;
+
+ }

@@ -1,0 +1,65 @@
+
+.sidenav {
+    width: 250px;
+    height: 600px;
+    
+    z-index: 1;
+    top: 300px;
+    margin-left: 100px;
+    margin-top: 15px;
+    background: white;
+    padding: 8px 15px;
+   
+  }
+  .sidenav.form-check{
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  .form-check-input{
+    width: 20px;
+    height: 20px;
+    border-radius:25%;
+  }
+  .form-check-label{
+    font-size: 17px;
+  }
+
+
+.form-check-input:checked {
+  align-content: center;
+  cursor: default;
+  appearance: auto;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial;
+  color: #b70606;
+}
+input[type="checkbox" i]::after {
+  align-content: center;
+  padding: 0%;
+  color: #b70606;
+  border-color: #b70606;
+}
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #b70606;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+  
+  .main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
